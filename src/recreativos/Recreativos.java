@@ -26,6 +26,7 @@ public class Recreativos {
 	public static void main(String[] args) {
 		
 		
+		
 		Juego vJuegos[] = new Juego[100];
 		
 		Juego juego1 = new Juego("CiberPunk");

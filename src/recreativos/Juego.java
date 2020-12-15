@@ -7,6 +7,7 @@ public class Juego {
 	private int record;
 	private boolean multijugador;
 	
+	
 	//Métodos de la clase ------
 	
 	public Juego(String nombre) {

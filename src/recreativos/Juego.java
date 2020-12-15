@@ -16,6 +16,16 @@ public class Juego {
 		multijugador = false;
 	}
 	
+	
+	
+	public Juego(String nombre, int record, boolean multijugador) {
+		this.nombre = nombre;
+		this.record = record;
+		this.multijugador = multijugador;
+	}
+
+
+
 	public void ponerRecord(int puntuacion) {
 		record = puntuacion;
 	}

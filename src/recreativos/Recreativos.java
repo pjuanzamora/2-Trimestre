@@ -15,7 +15,14 @@ public class Recreativos {
 	}
 	
 	public static void guardarJuego(Juego vJuegos[]) {
+		//Pedir los datos del juego con try- cacth
 		
+		//Buscar posción libre en el vector
+		for (int i = 0; i < vJuegos.length; i++) {
+			if (vJuegos[i] == null) {
+				vJuegos[i] = new Juego()
+			}
+		}
 	}
 	
 	public static void ponerPuntuacionJuego(Juego vJuegos[]) {

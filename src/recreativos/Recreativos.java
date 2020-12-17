@@ -1,5 +1,7 @@
 package recreativos;
 
+import java.util.Scanner;
+
 public class Recreativos {
 
 	public static int pintaMenu() {
@@ -16,11 +18,12 @@ public class Recreativos {
 	
 	public static void guardarJuego(Juego vJuegos[]) {
 		//Pedir los datos del juego con try- cacth
-		
+		Scanner leer = new Scanner(System.in);
 		//Buscar posción libre en el vector
 		for (int i = 0; i < vJuegos.length; i++) {
 			if (vJuegos[i] == null) {
-				vJuegos[i] = new Juego()
+				vJuegos[i] = new Juego("juan");
+				break;
 			}
 		}
 	}

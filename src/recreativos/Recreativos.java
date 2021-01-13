@@ -9,7 +9,7 @@ public class Recreativos {
 		//Guardar un nuevo juego
 		//Poner puntuación a un juego
 		//Ver todos los juegos
-		
+		return 0;
 	}
 	
 	public static void verTodosJuegos(Juego vJuegos[]) {

@@ -52,7 +52,7 @@ public class Curso {
 			}
 		}
 		
-		return  nombre + "\n" + tutor + "\nMódulos\n------\n" + datos;
+		return  nombre + "\n" + tutor + "\nMódulos\n-------\n" + datos;
 	}
 	
 	

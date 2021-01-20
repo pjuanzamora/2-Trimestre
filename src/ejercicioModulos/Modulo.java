@@ -37,7 +37,7 @@ public class Modulo {
 
 	@Override
 	public String toString() {
-		return "Modulo [nombre=" + nombre + ", codigo=" + codigo + ", numHoras=" + numHoras + "]";
+		return  nombre + " - " + codigo + " Horas -> " + numHoras;
 	}
 	
 	

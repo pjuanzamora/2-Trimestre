@@ -39,6 +39,12 @@ public class Persona {
 	public String toString() {
 		return "Persona [nombre=" + nombre + ", apellido=" + apellido + ", nip=" + nip + "]";
 	}
+
+	public String mostarDatos(int longitudLinea) {
+		// Nombre, Apellido ................ NIP
+		
+		return null;
+	}
 	
 	
 }
